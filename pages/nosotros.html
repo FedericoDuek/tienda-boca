@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="/style.css">
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Tienda Boca</title>
+</head>
+
+<body>
+        <!--Header-->
+    <header class="header">
+        <!--Menú hamburguesa-->
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <!--logo-->
+            <img class="logo logo-image" src="image/Boca_escudo.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Search bar-->
+            <div class="d-flex align-items-center justify-content-center">
+                <form action="/search" method="get">
+                    <input type="text" name="search" placeholder="Search...">
+                    <input type="submit" value="Search">
+                </form>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <!-- Add your menu items here -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/grandeza.html">Grandeza</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Nosotros</h1>
+        <!--historia-->
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Historia del club</h2>
+                <p>En el corazón de Buenos Aires, nació en 1905 una leyenda llamada Club Atlético Boca Juniors. Con su
+                    inconfundible azul y amarillo, este equipo ha conquistado el mundo del fútbol con su garra, pasión y estadio
+                    mítico, la Bombonera. Su historia llena de hazañas épicas y su apasionada hinchada, la "12", hacen de Boca
+                    Juniors un símbolo de grandeza y orgullo que perdurará por siempre en el alma de sus seguidores.</p>
+            </div>
+            <div class="col-lg-6" id="Boca">
+                <img src="/image/nosotros1.jpeg" alt="nosotros1" id="Boca">
+            </div>
+        </div>
+        <!--Mision y vision-->
+        <div class="row" id="Boca">
+            <div class="col-lg-6">
+                <img src="/image/nosotros2.jpeg" alt="nosotros2" id="Boca">
+            </div>
+            <div class="col-lg-6">
+                <h2>Misión y visión</h2>
+                <p>La misión del Club Atlético Boca Juniors es inspirar y unir a través del fútbol, promoviendo valores deportivos y
+                    excelencia en el campo de juego, mientras que su visión es ser una institución líder y reconocida a nivel
+                    mundial, representando con orgullo los colores azul y amarillo, formando talentos y conquistando títulos con el
+                    apoyo incondicional de su apasionada hinchada.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Valores y filosofía</h2>
+                <p> Los valores y filosofía del Club Atlético Boca Juniors se basan en la pasión por el fútbol, la entrega y el
+                    esfuerzo en cada partido. Con un profundo respeto por la historia y la identidad del club, buscamos fomentar
+                    la camaradería y la unidad entre jugadores, cuerpo técnico y la inigualable hinchada. Nuestra visión se
+                    enfoca en la excelencia deportiva, la formación integral de nuestros futbolistas y el compromiso con la
+                    comunidad, transmitiendo siempre los colores azul y amarillo con orgullo y compromiso en cada desafío que
+                    enfrentamos.</p>
+            </div>
+            <div class="col-lg-6" id="Boca">
+                <img src="/image/nosotros3.jpeg" alt="nosotros3" id="Boca">
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer py-4">
+        <a href="https://www.facebook.com"> <!--cambiar por el logo-->
+            <i class="fab fa-facebook"></i> Visit Facebook Page
+            <br>
+            <a href="https://www.intagram.com"> <!--cambiar por el logo-->
+                <i class="fab fa-facebook"></i> Visit Instagram Page
+                <p>&copy; 2023 Boca Juniors. Derechos reservados.</p>
+    </footer>
+</body>
+</html>

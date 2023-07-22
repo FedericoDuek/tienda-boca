@@ -1,0 +1,100 @@
+h1, p{
+    text-align: center;
+    color: #103f79; 
+}
+
+body {
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* barra de nav */
+.SearchBar {
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* carrusel */
+#myCarousel {
+    text-align: center;
+}
+
+/* forms */
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #103f79; 
+}
+
+/* botón forms fallido*/ 
+.btn btn-primary {
+    background-color: #f3b229;
+    color: #103f79;
+}
+
+/* mas forms */
+label {
+    color: #f3b229;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*logo*/
+.logo-image {
+    width: 100px;
+    height: auto;
+}
+
+/*menú burguer*/
+.navbar navbar-expand-md navbar-light bg-light{
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #103f79 !important;
+    color:#f3b229;
+}
+
+/* Remove margins and padding from the body and .cartel */
+body, .cartel {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Make the image width 100% */
+  .cartel img {
+    width: 100%;
+  }
+
+.footer{
+    background-color: #103f79;
+    color:#f3b229;
+    text-align: center;
+    margin-top: 1cm;
+}
+
+h1, .header, p, #myCarousel, .cartel, .container{
+    margin-bottom: 1cm;
+}
+/*fotos de nosotros*/
+#Boca {
+    width: 300px;
+    height: auto;
+}
+
+.redes img{
+    margin-right: 5cm;
+    align-items: center;
+}

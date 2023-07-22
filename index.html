@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Tienda Boca</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header class="header">
+        <!--Menú hamburguesa-->
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <!--logo-->
+            <img class="logo logo-image" src="image/Boca_escudo.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Search bar-->
+            <div class="d-flex align-items-center justify-content-center">
+                <form action="/search" method="get">
+                    <input type="text" name="search" placeholder="Search...">
+                    <input type="submit" value="Search">
+                </form>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <!-- Add your menu items here -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/contacto.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/nosotros.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/productos.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/grandeza.html">Grandeza</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--Párrafo de venta-->
+        <p>Descubre nuestra amplia selección de productos oficiales de Boca Juniors y muestra tu pasión por el equipo
+            más
+            grande de Argentina. Desde camisetas y accesorios hasta artículos para el hogar, encontrarás todo lo que
+            necesitas para lucir los colores y el orgullo de Boca. ¡Apoya al club de tus amores y demuestra que eres un
+            verdadero hincha con nuestros productos de calidad y autenticidad garantizada!</p>
+
+        <!--Productos destacados-->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/image/imagen.1-removebg-preview.png" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/producto3-removebg-preview.png" alt="Imagen 2">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+
+        <!--Cartel-->
+        <div class="cartel">
+            <img src="image/cartel boca.webp" alt="cartel">
+        </div>
+
+        <!--Forms para más info-->
+        <div class="container">
+            <h2>Para más información!</h2>
+            <form>
+                <div class="form-group">
+                    <label for="Nombre">Nombre:</label>
+                    <input type="Nombre" class="form-control" id="Nombre" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email:</label>
+                    <input type="Email" class="form-control" id="Email" placeholder="Email">
+                </div>
+                <button type="Enviar" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer py-4">
+        <a href="https://www.facebook.com"> <!--cambiar por el logo-->
+            <i class="fab fa-facebook"></i> Visit Facebook Page
+            <br>
+            <a href="https://www.intagram.com"> <!--cambiar por el logo-->
+                <i class="fab fa-facebook"></i> Visit Instagram Page
+                <p>&copy; 2023 Boca Juniors. Derechos reservados.</p>
+    </footer>
+</body>
+</html>

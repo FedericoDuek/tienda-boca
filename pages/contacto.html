@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Tienda Boca</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header class="header">
+        <!--Menú hamburguesa-->
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <!--logo-->
+            <img class="logo logo-image" src="image/Boca_escudo.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Search bar-->
+            <div class="d-flex align-items-center justify-content-center">
+                <form action="/search" method="get">
+                    <input type="text" name="search" placeholder="Search...">
+                    <input type="submit" value="Search">
+                </form>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <!-- Add your menu items here -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/grandeza.html">Grandeza</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contacto</h1>
+        <p>Para obtener más información sobre nuevos lanzamientos, noticias y mucho más pueden suscribirse a nuestro
+            newsletter llenando los datos del siguiente formulario.</p>
+        <!--forms newsletter-->
+        <div class="container mt-5">
+            <h2>Formulario de Contacto</h2>
+            <form action="enviar_formulario.php" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" class="form-control" id="correo" name="correo" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+
+        <!--cartel-->
+        <div class="cartel">
+            <img src="/image/cartel2.webp" alt="cartel2">
+        </div>
+
+        <!--redes-->
+        <section>
+            
+            <div style="text-align: center;">
+                <p>En caso de querer comunicarse con alguno de nuestros asesores, pueden contactanos en cualqquiera de nuestros
+                    medios
+                    de atención al cliente.</p>
+                <div class="redes">
+                    <!-- Logo de Instagram como botón -->
+                    <a href="https://www.instagram.com/bocajrsoficial" target="_blank">
+                        <img src="/image/insta logo.png" alt="Instagram" width="100" height="100">
+                    </a>
+                    <!-- Logo de Facebook como botón -->
+                    <a href="https://www.facebook.com/BocaJrs1995" target="_blank">
+                        <img src="/image/face logo.png" alt="Facebook" width="100" height="100">
+                    </a>
+                    <!-- Logo de Gmail como botón -->
+                    <a href="https://mail.google.com/marketing@bocajuniors.com.ar." target="_blank">
+                        <img src="/image/logo gmail.png" alt="Gmail" width="100" height="100">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer py-4">
+        <a href="https://www.facebook.com//BocaJrs1995"> <!--cambiar por el logo-->
+            <i class="fab fa-facebook"></i> Visit Facebook Page
+            <br>
+            <a href="https://www.intagram.com/bocajrsoficial"> <!--cambiar por el logo-->
+                <i class="fab fa-facebook"></i> Visit Instagram Page
+                <p>&copy; 2023 Boca Juniors. Derechos reservados.</p>
+    </footer>
+</body>
+</html>
